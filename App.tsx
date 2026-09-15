@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Exemplo1 from './exemplos/maps1';
+import Exemplo2 from './exemplos/maps2';
+import Exemplo3 from './exemplos/maps3';
+import Exemplo4 from './exemplos/maps4';
+import Exemplo5 from './exemplos/maps5';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Exemplo1 />
   );
 }
 
