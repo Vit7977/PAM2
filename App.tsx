@@ -5,18 +5,11 @@ import Exemplo2 from './exemplos/maps2';
 import Exemplo3 from './exemplos/maps3';
 import Exemplo4 from './exemplos/maps4';
 import Exemplo5 from './exemplos/maps5';
+import Exemplo6 from './exemplos/bola1';
+import Exemplo7 from './exemplos/bola2';
 
 export default function App() {
   return (
     <Exemplo1 />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
